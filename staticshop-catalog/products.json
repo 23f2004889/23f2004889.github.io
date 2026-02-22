@@ -3,32 +3,180 @@
     "email": "23f2004889@ds.study.iitm.ac.in",
     "version": "0ecd6950"
   },
-  "products": [
-    {"id":"prod-0ecd6950-001","name":"Standard Item 1","category":"home","price":125.92,"stock":137,"rating":3.6},
-    {"id":"prod-0ecd6950-002","name":"Standard Item 2","category":"electronics","price":495.85,"stock":169,"rating":1.6},
-    {"id":"prod-0ecd6950-003","name":"Standard Item 3","category":"clothing","price":198.91,"stock":13,"rating":2.2},
-    {"id":"prod-0ecd6950-004","name":"Standard Item 4","category":"books","price":437.56,"stock":191,"rating":4.4},
-    {"id":"prod-0ecd6950-005","name":"Premium Item 5","category":"electronics","price":151.41,"stock":56,"rating":4.8},
-    {"id":"prod-0ecd6950-006","name":"Pro Item 6","category":"electronics","price":104.59,"stock":41,"rating":3.5},
-    {"id":"prod-0ecd6950-007","name":"Basic Item 7","category":"electronics","price":361.63,"stock":74,"rating":1.4},
-    {"id":"prod-0ecd6950-008","name":"Premium Item 8","category":"books","price":116.95,"stock":74,"rating":3.1},
-    {"id":"prod-0ecd6950-009","name":"Basic Item 9","category":"books","price":425.12,"stock":102,"rating":4.8},
-    {"id":"prod-0ecd6950-010","name":"Elite Item 10","category":"home","price":331.54,"stock":171,"rating":3.2},
-    {"id":"prod-0ecd6950-011","name":"Premium Item 11","category":"books","price":326.42,"stock":125,"rating":4.4},
-    {"id":"prod-0ecd6950-012","name":"Elite Item 12","category":"electronics","price":480.88,"stock":166,"rating":1.1},
-    {"id":"prod-0ecd6950-013","name":"Premium Item 13","category":"sports","price":346.27,"stock":148,"rating":1.3},
-    {"id":"prod-0ecd6950-014","name":"Elite Item 14","category":"electronics","price":496.9,"stock":52,"rating":4.5},
-    {"id":"prod-0ecd6950-015","name":"Standard Item 15","category":"electronics","price":469.84,"stock":98,"rating":4.1},
-    {"id":"prod-0ecd6950-016","name":"Standard Item 16","category":"electronics","price":394.78,"stock":128,"rating":4.4},
-    {"id":"prod-0ecd6950-017","name":"Elite Item 17","category":"sports","price":111.2,"stock":173,"rating":3.9},
-    {"id":"prod-0ecd6950-018","name":"Basic Item 18","category":"books","price":372,"stock":107,"rating":2.9},
-    {"id":"prod-0ecd6950-019","name":"Standard Item 19","category":"books","price":243.94,"stock":178,"rating":4.2}
-  ],
+  "products":[
+  {
+    "id": "prod-0ecd6950-001",
+    "name": "Standard Item 1",
+    "category": "home",
+    "price": 125.92,
+    "stock": 137,
+    "rating": 3.6
+  },
+  {
+    "id": "prod-0ecd6950-002",
+    "name": "Standard Item 2",
+    "category": "electronics",
+    "price": 495.85,
+    "stock": 169,
+    "rating": 1.6
+  },
+  {
+    "id": "prod-0ecd6950-003",
+    "name": "Standard Item 3",
+    "category": "clothing",
+    "price": 198.91,
+    "stock": 13,
+    "rating": 2.2
+  },
+  {
+    "id": "prod-0ecd6950-004",
+    "name": "Standard Item 4",
+    "category": "books",
+    "price": 437.56,
+    "stock": 191,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-0ecd6950-005",
+    "name": "Premium Item 5",
+    "category": "electronics",
+    "price": 151.41,
+    "stock": 56,
+    "rating": 4.8
+  },
+  {
+    "id": "prod-0ecd6950-006",
+    "name": "Pro Item 6",
+    "category": "electronics",
+    "price": 104.59,
+    "stock": 41,
+    "rating": 3.5
+  },
+  {
+    "id": "prod-0ecd6950-007",
+    "name": "Basic Item 7",
+    "category": "electronics",
+    "price": 361.63,
+    "stock": 74,
+    "rating": 1.4
+  },
+  {
+    "id": "prod-0ecd6950-008",
+    "name": "Premium Item 8",
+    "category": "books",
+    "price": 116.95,
+    "stock": 74,
+    "rating": 3.1
+  },
+  {
+    "id": "prod-0ecd6950-009",
+    "name": "Basic Item 9",
+    "category": "books",
+    "price": 425.12,
+    "stock": 102,
+    "rating": 4.8
+  },
+  {
+    "id": "prod-0ecd6950-010",
+    "name": "Elite Item 10",
+    "category": "home",
+    "price": 331.54,
+    "stock": 171,
+    "rating": 3.2
+  },
+  {
+    "id": "prod-0ecd6950-011",
+    "name": "Premium Item 11",
+    "category": "books",
+    "price": 326.42,
+    "stock": 125,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-0ecd6950-012",
+    "name": "Elite Item 12",
+    "category": "electronics",
+    "price": 480.88,
+    "stock": 166,
+    "rating": 1.1
+  },
+  {
+    "id": "prod-0ecd6950-013",
+    "name": "Premium Item 13",
+    "category": "sports",
+    "price": 346.27,
+    "stock": 148,
+    "rating": 1.3
+  },
+  {
+    "id": "prod-0ecd6950-014",
+    "name": "Elite Item 14",
+    "category": "electronics",
+    "price": 496.9,
+    "stock": 52,
+    "rating": 4.5
+  },
+  {
+    "id": "prod-0ecd6950-015",
+    "name": "Standard Item 15",
+    "category": "electronics",
+    "price": 469.84,
+    "stock": 98,
+    "rating": 4.1
+  },
+  {
+    "id": "prod-0ecd6950-016",
+    "name": "Standard Item 16",
+    "category": "electronics",
+    "price": 394.78,
+    "stock": 128,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-0ecd6950-017",
+    "name": "Elite Item 17",
+    "category": "sports",
+    "price": 111.2,
+    "stock": 173,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-0ecd6950-018",
+    "name": "Basic Item 18",
+    "category": "books",
+    "price": 372,
+    "stock": 107,
+    "rating": 2.9
+  },
+  {
+    "id": "prod-0ecd6950-019",
+    "name": "Standard Item 19",
+    "category": "books",
+    "price": 243.94,
+    "stock": 178,
+    "rating": 4.2
+  }
+],
   "aggregations": {
-    "books": {"count":6,"inventoryValue":259618.32},
-    "electronics": {"count":8,"inventoryValue":325380.46},
-    "home": {"count":2,"inventoryValue":73898.38},
-    "clothing": {"count":1,"inventoryValue":2585.83},
-    "sports": {"count":2,"inventoryValue":70475.6}
+    "books": {
+      "count": 6,
+      "inventoryValue": 259618.32
+    },
+    "electronics": {
+      "count": 8,
+      "inventoryValue": 325380.46
+    },
+    "home": {
+      "count": 2,
+      "inventoryValue": 73898.38
+    },
+    "clothing": {
+      "count": 1,
+      "inventoryValue": 2585.83
+    },
+    "sports": {
+      "count": 2,
+      "inventoryValue": 70475.6
+    }
   }
 }
